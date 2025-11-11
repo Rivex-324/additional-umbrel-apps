@@ -1,14 +1,10 @@
-version: "3.7"
-
+version: "3.9"
 services:
-
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
+  motioneye:
+    image: ghcr.io/ccrisan/motioneye:master
+    container_name: motioneye
+    restart: unless-stopped
+    ports:
+      - "8765:8765"
+    privileged: true
     
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
