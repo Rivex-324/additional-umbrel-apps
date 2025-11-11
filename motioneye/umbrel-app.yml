@@ -1,21 +1,19 @@
-manifestVersion: 1
 id: motioneye
-name: motionEye
+name: MotionEye
 tagline: Lightweight web-based video monitoring
-icon: https://github.com/Rivex-324/additional-umbrel-apps/motioneye/icon.png
-category: Development
+icon: https://raw.githubusercontent.com/Rivex-324/additional-umbrel-apps/master/motioneye/icon.png
+category: Media
 version: "1.0.0"
 port: 8765
-description: >-
-  motionEye is an online interface for the software motion, a video 		 veillance program with motion detection.
+description: |
+  motionEye is a web interface for the software Motion, a video surveillance program with motion detection.
 
-Features:
-
-Add and manage multiple cameras
-Motion detection with event-triggered recording
-Store recordings on external storage
-Browse and download footage
-Optional notifications
+  **Features:**
+  - Add and manage multiple cameras
+  - Motion detection with event-triggered recording
+  - Store recordings on external storage
+  - Browse and download footage
+  - Optional notifications
 
 developer: Umbrel
 website: https://umbrel.com
@@ -27,9 +25,7 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  MotionEye
+releaseNotes: "MotionEye"
 dependencies: []
-path: ""
 defaultUsername: "admin"
 defaultPassword: ""
