@@ -8,6 +8,23 @@ version: "1.0.0"
 port: 8765
 description: >-
   MotionEye is a web interface for the software Motion, a video surveillance program with motion detection.
+
+  Features:
+  - Add and manage multiple cameras
+  - Motion detection with event-triggered recording
+  - Store recordings on external storage
+  - Browse and download footage
+  - Optional notifications
+
+developer: Umbrel
+website: https://umbrel.com
+submitter: Rivex-324
+submission: https://github.com/Rivex-324/additional-umbrel-apps
+repo: https://github.com/Rivex-324/additional-umbrel-apps
+support: https://github.com/Rivex-324/additional-umbrel-apps/issues
+gallery: []
+releaseNotes
+dependencies: []
 path: ""
 defaultUsername: "admin"
 defaultPassword: ""
