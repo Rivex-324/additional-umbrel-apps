@@ -1,4 +1,4 @@
-
+manifestVersion: 1
 id: motioneye
 name: MotionEye
 tagline: Lightweight web-based video monitoring
@@ -6,8 +6,8 @@ icon: https://raw.githubusercontent.com/Rivex-324/additional-umbrel-apps/master/
 category: Media
 version: "1.0.0"
 port: 8765
-description: |
-  motionEye is a web interface for the software Motion, a video surveillance program with motion detection.
+description: >-
+  MotionEye is a web interface for the software Motion, a video surveillance program with motion detection.
 
   **Features:**
   - Add and manage multiple cameras
@@ -16,40 +16,18 @@ description: |
   - Browse and download footage
   - Optional notifications
 
-manifestVersion: 1
-id: motioneye
-name: motionEye
-tagline: Lightweight web-based video monitoring
-icon: https://github.com/Rivex-324/additional-umbrel-apps/motioneye/icon.png
-category: Development
-version: "1.0.0"
-port: 8765
-description: >-
-  motionEye is an online interface for the software motion, a video 		 veillance program with motion detection.
-
-Features:
-
-Add and manage multiple cameras
-Motion detection with event-triggered recording
-Store recordings on external storage
-Browse and download footage
-Optional notifications
-
 developer: Umbrel
 website: https://umbrel.com
-submitter: Umbrel
+submitter: Rivex-324
 submission: https://github.com/Rivex-324/additional-umbrel-apps
 repo: https://github.com/Rivex-324/additional-umbrel-apps
 support: https://github.com/Rivex-324/additional-umbrel-apps/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: "MotionEye"
-dependencies: []
-=======
+  - https://raw.githubusercontent.com/Rivex-324/additional-umbrel-apps/master/motioneye/1.jpg
+  - https://raw.githubusercontent.com/Rivex-324/additional-umbrel-apps/master/motioneye/2.jpg
+  - https://raw.githubusercontent.com/Rivex-324/additional-umbrel-apps/master/motioneye/3.jpg
 releaseNotes: >-
-  MotionEye
+  Initial release of MotionEye for Umbrel.
 dependencies: []
 path: ""
 defaultUsername: "admin"
